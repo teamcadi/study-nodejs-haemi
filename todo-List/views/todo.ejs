@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>TodoList</title>\
+        <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrerity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+        <link herf="/assets/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Haemi's Todo List</h1>
+        <div id ="todo-table">
+            <form>
+                <input type ="text" name="item" placeholder="Add new item" required />
+                <button type="submit">Add Item</button>
+            </form>
+            <u1>
+                <% for(var i=0; i < todos.length ; i++){ %>
+                    <li><%= todos[i].item%></li>
+                <% } %>
+            </u1>
+        </div>
+    </body>
+</html>
